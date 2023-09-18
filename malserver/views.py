@@ -109,3 +109,8 @@ def mEndpointTest(request):
     print(result)
 
     return JsonResponse(result, safe=True)
+
+
+def index():
+    return JsonResponse({"Server is working"}, safe=True)
+
