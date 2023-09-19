@@ -20,4 +20,6 @@ from malserver import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("malware/",include("malserver.urls")),
+    
+
 ]
